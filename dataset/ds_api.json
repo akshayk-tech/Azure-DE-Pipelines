@@ -16,7 +16,7 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "anshlambagit/ADFInterview/refs/heads/main/RawData/{@dataset().p_filename}",
+					"value": "anshlambagit/ADFInterview/refs/heads/main/RawData/@{dataset().p_filename}",
 					"type": "Expression"
 				}
 			},
