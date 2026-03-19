@@ -58,8 +58,23 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "ForEach1",
+				"type": "ForEach",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"isSequential": true
+				}
 			}
 		],
+		"parameters": {
+			"loop_value": {
+				"type": "array",
+				"defaultValue": "[{'name':'RawData/AdventureWorks_Products.csv'},{'name':'RawData/AdventureWorks_Returns.csv'},{'name':'RawData/AdventureWorks_Sales_2016.csv'}]"
+			}
+		},
 		"annotations": []
 	}
 }
